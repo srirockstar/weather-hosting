@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-section {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+label span {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 12px;
+  color: #212121;
+}
+
+.popular-searches {
+  font-size: 14px;
+  color: #212121;
+  padding-top: 10px;
+}
+
+#date {
+  font-size: 12px;
+  color: #212121;
+  margin: 0 auto;
+}
+
+span.popular {
+  font-weight: 600;
+  color: #03506f;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: #03506f;
+  border-radius: 4px;
+  border: none;
+  height: 42px;
+  width: 150px;
+  font-weight: 300px;
+  font-size: 14px;
+  box-shadow: 0px 1px 6px rgba(0, 1, 0, 0.2);
+  margin-left: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+input[type="search"] {
+  height: 42px;
+  width: 330px;
+  font-weight: 200px;
+  font-size: 14px;
+  padding-left: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #a4a4a4;
+  font-weight: 300px;
+}
+
+.current-temperature-section {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  background: white;
+  text-align: center;
+  padding: 20px;
+  width: 250px;
+  margin: 20px;
+}
+
+.current-temperature-section .current-image img {
+  width: 100px;
+}
+
+h2 {
+  color: pink;
+}
+
+h4 {
+  font-size: 20px;
+  color: #03506f;
+}
